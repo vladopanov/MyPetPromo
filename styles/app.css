@@ -1,0 +1,36 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type=file] {
+    margin: 0 auto;
+}
+
+.nav {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+    .nav > li {
+        display: inline-block;
+        float: none;
+    }
+
+section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 699px) {
+    section {
+        width: 100%;
+    }
+
+    .nav > li {
+        display: block;
+    }
+}
