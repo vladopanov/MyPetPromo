@@ -33,4 +33,8 @@ section {
     .nav > li {
         display: block;
     }
+
+    .container {
+        width: 100%;
+    }
 }
