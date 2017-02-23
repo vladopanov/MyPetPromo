@@ -248,7 +248,12 @@ function startApp() {
         link = document.createElement('a');
         link.setAttribute('href', data);
         link.setAttribute('download', filename);
-        link.click();
+        var event = document.createEvent("MouseEvents");
+        event.initMouseEvent(
+                "click", true, false, window, 0, 0, 0, 0, 0
+                , false, false, false, false, 0, null
+        );
+        link.dispatchEvent(event);
     }
 
     function convertArrayOfObjectsToCSV(args) {
