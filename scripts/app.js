@@ -204,7 +204,7 @@ function startApp() {
             error: handleAjaxError
         });
         function createPhotoSuccess() {
-            document.location.href = "mailto:" + pretender.email + "?subject=MyPet Photo By Telenor&body=Download Link: " + url;
+            document.location.href = "mailto:" + pretender.email + "?subject=MyKi Pet снимка от Теленор&body=Линк към снимката: " + url;
         }
     }
 

@@ -1,3 +1,7 @@
+body {
+    font-size: 16px;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -25,7 +29,19 @@ section {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 699px) {
+img {
+    margin-top: 15px;
+}
+
+#img2 {
+    display: none;
+}
+
+#lotteryText {
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 480px) {
     section {
         width: 100%;
     }
@@ -36,5 +52,13 @@ section {
 
     .container {
         width: 100%;
+    }
+
+    #img1 {
+        display: none
+    }
+
+    #img2 {
+        display: block;
     }
 }
